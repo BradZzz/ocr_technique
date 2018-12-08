@@ -19,16 +19,15 @@ An artificial neural network was originally created to replicate the neurons in 
 Much like the a human brain, neural networks filter their environment down until they arrive at a conclusion. Look at the image above. The neural network is using low-level, mid-level, and high-level features to determine that the image is of a car. Low-level features include simple structures such as lines and curves. Mid-level features contain spatial awareness and bags of features such as grass, snow, and sky. High level features contain objects that are easy to identify in the photo with the intent of determining the nature of the photo itself. For example if you knew that Santa Claus, elves, and a factory were in a photo, a pretty good guess would be to assume that the photo was of Santa’s workshop.
 
 ## Why Do I Care?
-we have a lot of charts!
-some of them are well formatted without any handwriting
-but most of them aren't
-we use ocr to turn physician's sometimes bad handwriting into something legible
-The chart to the left is one of the poorer formatted charts. Notice how the contrast is poor in some places, with the document also leaning slightly to the left
-This will inhibit the neural network’s ability to process the words in the document correctly and should be fixed to improve this document’s results
+* I had a lot of charts!
+* Some of them were well formatted and without any handwriting, but most of them weren't.
+* I needed to use ocr to turn a physician's sometimes bad handwriting into something legible.
+* The chart to the left is one of the poorer formatted charts. Notice how the contrast is poor in some places, with the document also leaning slightly to the left.
+* This will inhibit the neural network’s ability to process the words in the document correctly and should be fixed to improve this document’s results.
 
 ## Baseline?
-What was the baseline for this new software?
-it had to be at least as good as the Nuance ocr software we were currently using
+* What was the baseline for this new software?
+* It had to be at least as good as the Nuance ocr software we were currently using
 acceptable amount of errors in the diff between actual and expected transcription of the images
 The image to the left is the Nuance transcription of the image in the previous slide
 This was going to be what I would have to beat

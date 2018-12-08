@@ -1,9 +1,6 @@
 # Advanced OCR Techniques
 This presentation comes from an enterprise solution, so the code cannot be presented here. Instead I'd like to outline the technique and approaches to building an Optical Character Recognition system from scratch. An Optical Character Recognition system in this case is taking patient medical information written on paper and converting it into a text json file.
 
-## Background
-It was about a year ago and my manager approached me with a problem he was wondering if i knew how to fix. Our OCR service was too expensive! We needed to find out if there were any cheaper solutions available, and more importantly, if they would have the same level of accuracy as our current solution.
-
 ## What is an OCR Service?
 ![alt text](screens/screen01.png "Screen 1")
 * OCR stands for optical character recognition.

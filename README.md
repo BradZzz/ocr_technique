@@ -5,12 +5,12 @@ This presentation comes from an enterprise solution, so the code cannot be prese
 It was about a year ago and i was still working on the epianalytics project with the revcult team. Dan approached me with a problem he was wondering if i knew how to fix. Our ocr service was too expensive! We needed to find out if there were any cheaper solutions available, and more importantly, if they would have the same level of accuracy as our current solution
 
 ## What is an OCR Service?
-*OCR stands for optical character recognition
-*The computer recognizes letters in pixels from image given to it
-*A common example would be the pen hovering over the letters in the document in the image above to read them into memory
-*Through image analysis, OCR attempts to translate those letters into words
-*Some OCR services are more simplistic, but ours was going for accuracy
-*It looked like I was going to need a Neural Network for most of my heavy lifting
+* OCR stands for optical character recognition
+* The computer recognizes letters in pixels from image given to it
+* A common example would be the pen hovering over the letters in the document in the image above to read them into memory
+* Through image analysis, OCR attempts to translate those letters into words
+* Some OCR services are more simplistic, but ours was going for accuracy
+* It looked like I was going to need a Neural Network for most of my heavy lifting
 
 ## Neural Network
 An artificial neural network was originally created to replicate the neurons in the human brain. An artificial neural network is a network of simple elements called artificial neurons, which receive input, change their internal state (activation) according to that input, and produce output depending on the input and activation. The network forms by connecting the output of certain neurons to the input of other neurons forming a directed, weighted graph. The weights as well as the functions that compute the activation can be modified by a process called learning which is governed by a learning rule. I know that sounds confusing, but it basically means that you can feed corrections into the network when it makes mistakes, and it slowly stops making those mistakes as often.
